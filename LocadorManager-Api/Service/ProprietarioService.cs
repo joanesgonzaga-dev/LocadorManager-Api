@@ -19,6 +19,7 @@ namespace LocadorManager_Api.Service
         {
             _httpClient = httpClient;
             _configuration = configuration;
+            string _add = null;
         }
         public async Task<List<Proprietario>> GetAllProprietariosAsync()
         {
